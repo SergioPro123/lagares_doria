@@ -22,8 +22,8 @@ class productosControllers extends Controller
         $endPoint = "";
         $propiedades = [];
         $propiedadesPage = [];
-        $activeElement = array(26);
-        for ($i = 0; $i < 26; $i++) {
+        $activeElement = array(27);
+        for ($i = 0; $i < 27; $i++) {
             $activeElement[$i] = "";
         }
         //Pregunta a donde quiere apuntar
@@ -109,8 +109,8 @@ class productosControllers extends Controller
         $endPoint = "";
         $propiedades = [];
         $propiedadesPage = [];
-        $activeElement = array(26);
-        for ($i = 0; $i < 26; $i++) {
+        $activeElement = array(27);
+        for ($i = 0; $i < 27; $i++) {
             $activeElement[$i] = "";
         }
         //Pregunta a donde quiere apuntar
@@ -181,8 +181,8 @@ class productosControllers extends Controller
         $endPoint = "";
         $propiedades = [];
         $propiedadesPage = [];
-        $activeElement = array(26);
-        for ($i = 0; $i < 26; $i++) {
+        $activeElement = array(27);
+        for ($i = 0; $i < 27; $i++) {
             $activeElement[$i] = "";
         }
         //Pregunta a donde quiere apuntar
@@ -265,8 +265,8 @@ class productosControllers extends Controller
         }
         $propiedades = [];
         $propiedadesPage = [];
-        $activeElement = array(26);
-        for ($i = 0; $i < 26; $i++) {
+        $activeElement = array(27);
+        for ($i = 0; $i < 27; $i++) {
             $activeElement[$i] = "";
         }
         //Pregunta a donde quiere apuntar

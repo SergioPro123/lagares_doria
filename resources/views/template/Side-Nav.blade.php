@@ -4,7 +4,7 @@
          <!-- Sidebar Menu-->
          <ul class="sidebar-menu">
              <li class="nav-level">--- Navegación</li>
-             <li class="treeview">
+             <li class="{{ $activeElement[26] }} treeview">
                  <a class="waves-effect waves-dark" href="{{ url('/dashboard') }}">
                      <i class="icon-speedometer"></i><span> Dashboard</span>
                  </a>

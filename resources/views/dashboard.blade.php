@@ -54,7 +54,7 @@
     </div>
     <div class="wrapper">
         <!-- Navbar-->
-        @include("template.navbar",[$data])
+        @include("template.navbar",[$data,$activeElement])
         <!-- Side-Nav-->
         @extends("template.Side-Nav")
 
