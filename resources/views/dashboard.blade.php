@@ -73,7 +73,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card dashboard-product">
                             <span>Barrios</span>
-                            <h2 class="dashboard-total-products">4500</h2>
+                            <h2 class="dashboard-total-products">{{ $totales['barrios'] }}</h2>
                             Cantidad de barrios
                             <div class="side-box">
                                 <i class="ti-signal text-warning-color"></i>
@@ -84,7 +84,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card dashboard-product">
                             <span>Comunas</span>
-                            <h2 class="dashboard-total-products">37,500</h2>
+                            <h2 class="dashboard-total-products">{{ $totales['comunas'] }}</h2>
                             Cantidad de comunas
                             <div class="side-box ">
                                 <i class="ti-gift text-primary-color"></i>
@@ -95,7 +95,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card dashboard-product">
                             <span>Bancos</span>
-                            <h2 class="dashboard-total-products"><span>30,780</span></h2>
+                            <h2 class="dashboard-total-products"><span>{{ $totales['bancos'] }}</span></h2>
                             Cantidad de bancos
                             <div class="side-box">
                                 <i class="ti-direction-alt text-success-color"></i>
@@ -106,7 +106,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card dashboard-product">
                             <span>Colegios</span>
-                            <h2 class="dashboard-total-products"><span>30,780</span></h2>
+                            <h2 class="dashboard-total-products"><span>{{ $totales['colegios'] }}</span></h2>
                             Cantidad de colegios
                             <div class="side-box">
                                 <i class="ti-rocket text-danger-color"></i>
@@ -117,7 +117,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card dashboard-product">
                             <span>Universidades</span>
-                            <h2 class="dashboard-total-products"><span>30,780</span></h2>
+                            <h2 class="dashboard-total-products"><span>{{ $totales['universidades'] }}</span></h2>
                             Cantidad de univesidades
                             <div class="side-box">
                                 <i class="ti-direction-alt text-success-color"></i>
@@ -128,7 +128,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card dashboard-product">
                             <span>Hospitales</span>
-                            <h2 class="dashboard-total-products"><span>30,780</span></h2>
+                            <h2 class="dashboard-total-products"><span>{{ $totales['hospitales'] }}</span></h2>
                             Cantidad de hospitales
                             <div class="side-box">
                                 <i class="ti-rocket text-danger-color"></i>
@@ -139,7 +139,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card dashboard-product">
                             <span>Mensajerias</span>
-                            <h2 class="dashboard-total-products"><span>30,780</span></h2>
+                            <h2 class="dashboard-total-products"><span>{{ $totales['mensajerias'] }}</span></h2>
                             Cantidad de mensajerias
                             <div class="side-box">
                                 <i class="ti-rocket text-danger-color"></i>
@@ -163,28 +163,14 @@
                             <div class="card-block">
                                 <div class="user-block-2-activities">
                                     <div class="user-block-2-active">
-                                        <i class="icofont icofont-clock-time"></i> Recent Activities
-                                        <label class="label label-primary">480</label>
+                                        <i class="icofont icofont-clock-time"></i>Cedula
+                                        <label class="label label-primary">{{ $data->cedula }}</label>
                                     </div>
                                 </div>
                                 <div class="user-block-2-activities">
                                     <div class="user-block-2-active">
-                                        <i class="icofont icofont-users"></i> Current Employees
-                                        <label class="label label-primary">390</label>
-                                    </div>
-                                </div>
-
-                                <div class="user-block-2-activities">
-                                    <div class="user-block-2-active">
-                                        <i class="icofont icofont-ui-user"></i> Following
-                                        <label class="label label-primary">485</label>
-                                    </div>
-
-                                </div>
-                                <div class="user-block-2-activities">
-                                    <div class="user-block-2-active">
-                                        <i class="icofont icofont-picture"></i> Pictures
-                                        <label class="label label-primary">506</label>
+                                        <i class="icofont icofont-users"></i> Celular
+                                        <label class="label label-primary">{{ $data->celular }}</label>
                                     </div>
                                 </div>
                                 <div class="text-center">

@@ -27,7 +27,7 @@
                 <li class="dropdown">
                     <a href="#!" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"
                         class="dropdown-toggle drop icon-circle drop-image">
-                        <span><img class="img-circle " src="{{ asset('assets/images/avatar-1.png') }}"
+                        <span><img class="img-circle " src="{{ asset('assets/images/widget/user-1.png') }}"
                                 style="width:40px;" alt="User Image"></span>
                         <span>{{ $data->nombre }} <b>{{ $data->apellido }}</b> <i
                                 class=" icofont icofont-simple-down"></i></span>
